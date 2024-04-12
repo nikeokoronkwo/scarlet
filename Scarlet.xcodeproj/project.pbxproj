@@ -53,8 +53,11 @@
 		C99B7DD62BC8C53E001C5E27 = {
 			isa = PBXGroup;
 			children = (
-				C99B7DE22BC8C53E001C5E27 /* Scarlet */,
-				C99B7DEE2BC8C53E001C5E27 /* ScarletTests */,
+				C99B7DFC2BC8C6EB001C5E27 /* Documentation */,
+				C99B7DFB2BC8C5FE001C5E27 /* Utilities */,
+				C99B7DFA2BC8C5F2001C5E27 /* Examples */,
+				C99B7DE22BC8C53E001C5E27 /* Sources */,
+				C99B7DEE2BC8C53E001C5E27 /* Tests */,
 				C99B7DE12BC8C53E001C5E27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,21 +71,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C99B7DE22BC8C53E001C5E27 /* Scarlet */ = {
+		C99B7DE22BC8C53E001C5E27 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				C99B7DE32BC8C53E001C5E27 /* Scarlet.h */,
 				C99B7DE42BC8C53E001C5E27 /* Scarlet.docc */,
 			);
-			path = Scarlet;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		C99B7DEE2BC8C53E001C5E27 /* ScarletTests */ = {
+		C99B7DEE2BC8C53E001C5E27 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				C99B7DEF2BC8C53E001C5E27 /* ScarletTests.swift */,
 			);
-			path = ScarletTests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C99B7DFA2BC8C5F2001C5E27 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		C99B7DFB2BC8C5FE001C5E27 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C99B7DFC2BC8C6EB001C5E27 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
