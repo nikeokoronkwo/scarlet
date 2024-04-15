@@ -7,7 +7,7 @@
 import ArgumentParser
 
 @main
-struct CLI: ParsableCommand {
+struct ScarletCLI: ParsableCommand {
     mutating func run() throws {
         print("Hello, world!")
     }
