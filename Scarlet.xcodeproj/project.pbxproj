@@ -11,6 +11,7 @@
 		C99B7DEB2BC8C53E001C5E27 /* Scarlet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99B7DE02BC8C53E001C5E27 /* Scarlet.framework */; };
 		C99B7DF02BC8C53E001C5E27 /* ScarletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B7DEF2BC8C53E001C5E27 /* ScarletTests.swift */; };
 		C99B7DF12BC8C53E001C5E27 /* Scarlet.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B7DE32BC8C53E001C5E27 /* Scarlet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C99B7E002BCCBB5C001C5E27 /* CLI in Resources */ = {isa = PBXBuildFile; fileRef = C99B7DFF2BCCBB5C001C5E27 /* CLI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		C99B7DE42BC8C53E001C5E27 /* Scarlet.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Scarlet.docc; sourceTree = "<group>"; };
 		C99B7DEA2BC8C53E001C5E27 /* ScarletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScarletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99B7DEF2BC8C53E001C5E27 /* ScarletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarletTests.swift; sourceTree = "<group>"; };
+		C99B7DFF2BCCBB5C001C5E27 /* CLI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CLI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		C99B7DD62BC8C53E001C5E27 = {
 			isa = PBXGroup;
 			children = (
+				C99B7DFF2BCCBB5C001C5E27 /* CLI */,
 				C99B7DFC2BC8C6EB001C5E27 /* Documentation */,
 				C99B7DFB2BC8C5FE001C5E27 /* Utilities */,
 				C99B7DFA2BC8C5F2001C5E27 /* Examples */,
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99B7E002BCCBB5C001C5E27 /* CLI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
