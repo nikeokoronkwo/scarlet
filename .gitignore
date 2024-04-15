@@ -9,3 +9,10 @@ DerivedData/
 # Resolved
 **/Package.resolved
 
+
+
+# Private Folder
+private/
+internal/
+
+Private/
