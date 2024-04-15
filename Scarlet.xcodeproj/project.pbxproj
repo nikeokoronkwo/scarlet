@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99B7DE52BC8C53E001C5E27 /* Scarlet.docc in Sources */ = {isa = PBXBuildFile; fileRef = C99B7DE42BC8C53E001C5E27 /* Scarlet.docc */; };
+		C99B7DEB2BC8C53E001C5E27 /* Scarlet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99B7DE02BC8C53E001C5E27 /* Scarlet.framework */; };
+		C99B7DF02BC8C53E001C5E27 /* ScarletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B7DEF2BC8C53E001C5E27 /* ScarletTests.swift */; };
+		C99B7DF12BC8C53E001C5E27 /* Scarlet.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B7DE32BC8C53E001C5E27 /* Scarlet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C99B7E002BCCBB5C001C5E27 /* CLI in Resources */ = {isa = PBXBuildFile; fileRef = C99B7DFF2BCCBB5C001C5E27 /* CLI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99B7DEC2BC8C53E001C5E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99B7DD72BC8C53E001C5E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99B7DDF2BC8C53E001C5E27;
+			remoteInfo = Scarlet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C99B7DE02BC8C53E001C5E27 /* Scarlet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scarlet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99B7DE32BC8C53E001C5E27 /* Scarlet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scarlet.h; sourceTree = "<group>"; };
+		C99B7DE42BC8C53E001C5E27 /* Scarlet.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Scarlet.docc; sourceTree = "<group>"; };
+		C99B7DEA2BC8C53E001C5E27 /* ScarletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScarletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99B7DEF2BC8C53E001C5E27 /* ScarletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarletTests.swift; sourceTree = "<group>"; };
+		C99B7DFF2BCCBB5C001C5E27 /* CLI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CLI; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99B7DDD2BC8C53E001C5E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99B7DE72BC8C53E001C5E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B7DEB2BC8C53E001C5E27 /* Scarlet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99B7DD62BC8C53E001C5E27 = {
+			isa = PBXGroup;
+			children = (
+				C99B7DFF2BCCBB5C001C5E27 /* CLI */,
+				C99B7DFC2BC8C6EB001C5E27 /* Documentation */,
+				C99B7DFB2BC8C5FE001C5E27 /* Utilities */,
+				C99B7DFA2BC8C5F2001C5E27 /* Examples */,
+				C99B7DE22BC8C53E001C5E27 /* Sources */,
+				C99B7DEE2BC8C53E001C5E27 /* Tests */,
+				C99B7DE12BC8C53E001C5E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99B7DE12BC8C53E001C5E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99B7DE02BC8C53E001C5E27 /* Scarlet.framework */,
+				C99B7DEA2BC8C53E001C5E27 /* ScarletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99B7DE22BC8C53E001C5E27 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C99B7DE32BC8C53E001C5E27 /* Scarlet.h */,
+				C99B7DE42BC8C53E001C5E27 /* Scarlet.docc */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C99B7DEE2BC8C53E001C5E27 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C99B7DEF2BC8C53E001C5E27 /* ScarletTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C99B7DFA2BC8C5F2001C5E27 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		C99B7DFB2BC8C5FE001C5E27 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C99B7DFC2BC8C6EB001C5E27 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C99B7DDB2BC8C53E001C5E27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B7DF12BC8C53E001C5E27 /* Scarlet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C99B7DDF2BC8C53E001C5E27 /* Scarlet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99B7DF42BC8C53E001C5E27 /* Build configuration list for PBXNativeTarget "Scarlet" */;
+			buildPhases = (
+				C99B7DDB2BC8C53E001C5E27 /* Headers */,
+				C99B7DDC2BC8C53E001C5E27 /* Sources */,
+				C99B7DDD2BC8C53E001C5E27 /* Frameworks */,
+				C99B7DDE2BC8C53E001C5E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scarlet;
+			productName = Scarlet;
+			productReference = C99B7DE02BC8C53E001C5E27 /* Scarlet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C99B7DE92BC8C53E001C5E27 /* ScarletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99B7DF72BC8C53E001C5E27 /* Build configuration list for PBXNativeTarget "ScarletTests" */;
+			buildPhases = (
+				C99B7DE62BC8C53E001C5E27 /* Sources */,
+				C99B7DE72BC8C53E001C5E27 /* Frameworks */,
+				C99B7DE82BC8C53E001C5E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99B7DED2BC8C53E001C5E27 /* PBXTargetDependency */,
+			);
+			name = ScarletTests;
+			productName = ScarletTests;
+			productReference = C99B7DEA2BC8C53E001C5E27 /* ScarletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99B7DD72BC8C53E001C5E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C99B7DDF2BC8C53E001C5E27 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C99B7DE92BC8C53E001C5E27 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C99B7DDA2BC8C53E001C5E27 /* Build configuration list for PBXProject "Scarlet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99B7DD62BC8C53E001C5E27;
+			productRefGroup = C99B7DE12BC8C53E001C5E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99B7DDF2BC8C53E001C5E27 /* Scarlet */,
+				C99B7DE92BC8C53E001C5E27 /* ScarletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99B7DDE2BC8C53E001C5E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B7E002BCCBB5C001C5E27 /* CLI in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99B7DE82BC8C53E001C5E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99B7DDC2BC8C53E001C5E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B7DE52BC8C53E001C5E27 /* Scarlet.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99B7DE62BC8C53E001C5E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99B7DF02BC8C53E001C5E27 /* ScarletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99B7DED2BC8C53E001C5E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99B7DDF2BC8C53E001C5E27 /* Scarlet */;
+			targetProxy = C99B7DEC2BC8C53E001C5E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C99B7DF22BC8C53E001C5E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C99B7DF32BC8C53E001C5E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C99B7DF52BC8C53E001C5E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54S7P6J45Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nima.Scarlet;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C99B7DF62BC8C53E001C5E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54S7P6J45Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nima.Scarlet;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C99B7DF82BC8C53E001C5E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54S7P6J45Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nima.ScarletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C99B7DF92BC8C53E001C5E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54S7P6J45Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nima.ScarletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99B7DDA2BC8C53E001C5E27 /* Build configuration list for PBXProject "Scarlet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B7DF22BC8C53E001C5E27 /* Debug */,
+				C99B7DF32BC8C53E001C5E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99B7DF42BC8C53E001C5E27 /* Build configuration list for PBXNativeTarget "Scarlet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B7DF52BC8C53E001C5E27 /* Debug */,
+				C99B7DF62BC8C53E001C5E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99B7DF72BC8C53E001C5E27 /* Build configuration list for PBXNativeTarget "ScarletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99B7DF82BC8C53E001C5E27 /* Debug */,
+				C99B7DF92BC8C53E001C5E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99B7DD72BC8C53E001C5E27 /* Project object */;
+}
